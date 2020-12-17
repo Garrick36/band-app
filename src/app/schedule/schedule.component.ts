@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Schedule } from '../models/schedule';
-import { SCHEDULE_LIST } from './scheduleList';
+import { SCHEDULE_LIST } from '../database/scheduleList';
 import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({

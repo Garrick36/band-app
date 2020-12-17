@@ -9,3 +9,6 @@ body {
 h1, div {
     color: white;
 }
+h1 {
+    margin-bottom: 1em;
+}

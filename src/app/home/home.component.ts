@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Schedule } from '../models/schedule';
 import { DomSanitizer } from '@angular/platform-browser';
-import { SCHEDULE_LIST } from '../schedule/scheduleList';
+import { SCHEDULE_LIST } from '../database/scheduleList';
 
 @Component({
   selector: 'app-home',
