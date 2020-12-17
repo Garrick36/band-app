@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": " ng build --prod --base-href \"https://Garrick36.github.io/\" && ngh"
+    "build-prod": "ng build --prod --base-href \"https://Garrick36.github.io/\"",
+    "deploy": " npm run build-prod && ngh"
   },
   "private": true,
   "dependencies": {
