@@ -2,3 +2,10 @@
 .container {
     padding-top: 70px;
 }
+body {
+    background-image: url(assets/images/soundwave.jpg);
+    background-size: cover;
+}
+h1, div {
+    color: white;
+}
